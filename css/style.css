@@ -150,6 +150,10 @@ p.header__social-icons a:hover{
     margin-top: 0px;
     margin-bottom: 15px;
 }
+/*about*/
+.about{
+    background-color: #e6f2ff;
+}
 /*single-page*/
 
 .portfolio-single-page{
