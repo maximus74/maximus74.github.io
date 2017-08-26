@@ -20,6 +20,8 @@ img{
 }
 a{
     transition: 0.2s ease-out;
+    text-decoration: none; 
+    color: #fff;
 }
 /*grid*/
 .container{
@@ -76,6 +78,22 @@ a{
 .header-slogan{
     font-size: 28px;
     line-height: 42px;
+}
+p.header__social-icons{
+    margin-top: 150px;
+    color:#FFF;
+    font-size: 32px;
+}
+p.header__social-icons a{
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 30px;    
+}
+p.header__social-icons a:last-child{
+    margin-right: 0px;
+}
+p.header__social-icons a:hover{
+    color:#ffe400;
 }
 .header-arrow{
     font-size: 48px;
@@ -158,6 +176,9 @@ a{
     background-color: #0052c2;
     color: white;    
 }
+a.vk{
+    color: #000;
+}
 
 /*footer*/
 
@@ -225,6 +246,13 @@ p.footer__social-icons a:hover{
     .col-4{
         width: 100%;        
         margin: 0;
+        margin-bottom: 20px;
+        padding: 0 15px 0 15px;
+        text-align: center;
+    }
+    .col-8{
+        width: 100%;        
+        margin: 0;
         margin-bottom: 30px;
         padding: 0 15px 0 15px;
         text-align: center;
@@ -233,7 +261,12 @@ p.footer__social-icons a:hover{
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+    .header__social-icons{
+        margin-top: 10px;
+    }
+    .portfolio-item__img{
+        margin-bottom: 0;
+    }
     .header__title{
         font-size: 38px;
         line-height: 48px;
